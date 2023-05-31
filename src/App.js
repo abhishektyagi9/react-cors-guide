@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import Home from './Home';
-import CreateUser from './createuser';
 // define a  App function with a Div element
 function App() {
 
@@ -11,7 +10,6 @@ function App() {
     <NavBar />
     <div className="content">
     <Home />
-    <CreateUser />
       </div>
    
     </div>
